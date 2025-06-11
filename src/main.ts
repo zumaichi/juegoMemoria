@@ -1,3 +1,11 @@
 import "./style.css";
 
-console.log("Hello Typescript!");
+function descubrir(card: HTMLElement) {
+  card.classList.toggle("descubierta");
+}
+
+document.querySelectorAll(".card").forEach((card) => {
+  card.addEventListener("click", function () {
+    descubrir(card as HTMLElement);
+  });
+});
