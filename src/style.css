@@ -13,20 +13,17 @@ h1 {
   font-size: 2rem;
   text-align: center;
 }
-div {
-  display: flex;
-  border-radius: 8px;
-}
 
 .divCard {
   display: inline-grid;
-  grid-template-columns: repeat(4, 140px);
-  grid-template-rows: repeat(3, 140px);
-  gap: 100px;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(3, 200px);
+  gap: 50px;
   padding: 100px;
   justify-content: center;
   align-content: center;
   background-color: #008db7;
+  border-radius: 10px;
 }
 .card {
   display: grid;
@@ -35,10 +32,13 @@ div {
   cursor: pointer;
   user-select: none;
   overflow: hidden;
+  border-radius: 10px;
 }
 .card img {
   display: none;
   background-color: #eee8a9;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .card.descubierta img {
