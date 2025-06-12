@@ -1,8 +1,9 @@
-interface Carta {
+interface InfoCarta {
   idFoto: number;
   imagen: string;
 }
-let cartas: Carta[] = [
+
+const infoCartas: InfoCarta[] = [
   {
     idFoto: 1,
     imagen:
